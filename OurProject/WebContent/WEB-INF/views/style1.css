@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+* {box-sizing: border-box}
+
+
+input[type=text],input[type=password],input[type=number] {
+  width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #ddd;
+    outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 45px;
+}
+
+
+button {
+  background-color: #00ff80;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color:#0080ff;
+}
+
+
+.cancelbtn, .registrationpagebtn {
+  float: left;
+  width:50;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
